@@ -91,7 +91,7 @@ def train_gradient_descent(x, y):
     num_iters = 1001
     n = len(x)
 
-    for i in range(1, num_iters):
+    for i in range(num_iters):
         if i in [0,1,2,3,4,1000]:
             plot_training_iteration(x, y, b0, b1, i)
 
