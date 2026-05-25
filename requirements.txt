@@ -5,3 +5,5 @@ numpy
 pandas
 matplotlib
 duckdb
+seaborn
+scikit-learn
