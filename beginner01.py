@@ -148,8 +148,8 @@ def main() -> None:
     b0,b1 = train_gradient_descent(x[1],y[1])
 
     print("ex02")
-    salary_10 = predict(10,b0,b1)
-    salary_15 = predict(15,b0,b1)
+    salary_10 = predict(10, b0, b1)
+    salary_15 = predict(15, b0, b1)
 
     print(f"Predicted salary for 10 years of experience {salary_10}")
     print(f"Predicted salary for 15 years of experience {salary_15}")
